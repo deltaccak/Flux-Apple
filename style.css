@@ -22,7 +22,7 @@
             overflow-x: hidden;
         }
 
-        /* Header */
+        /* ----------------------Header ----------------------*/
         .header {
             position: fixed;
             top: 0;
@@ -121,7 +121,7 @@
             width: 100%;
         }
 
-        /* Hero Section */
+        /*---------------------- Hero ---------------------- */
         .hero {
             margin-top: 80px;
             min-height: 90vh;
@@ -269,7 +269,7 @@
             50% { transform: translateY(-20px); }
         }
 
-        /* Services Section */
+        /* Servicios Section */
         .services {
             padding: 6rem 0;
             background: var(--secondary-color);
@@ -591,7 +591,7 @@
             }
         }
 
-        /* Animations */
+       
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
@@ -605,7 +605,7 @@
             }
         }
 
-        /* Scroll animations */
+      
         .animate-on-scroll {
             opacity: 0;
             transform: translateY(50px);
@@ -619,7 +619,7 @@
    
 
 
-        /* Phone mockup */
+        
         .phone-mockup {
             width: 300px;
             height: 520px;
@@ -694,9 +694,6 @@
 
 
 
-  /* Responsive Design Mejorado */
-
-/* Tablet Grande */
 @media (max-width: 1024px) {
     .nav {
         padding: 0 1.5rem;
@@ -726,7 +723,7 @@
     }
 }
 
-/* Tablet */
+
 @media (max-width: 768px) {
     .nav {
         padding: 0 1rem;
@@ -980,7 +977,7 @@
     }
 }
 
-/* Mobile Pequeño */
+
 @media (max-width: 360px) {
     .hero-text h1 {
         font-size: 1.8rem;
@@ -1009,7 +1006,7 @@
     }
 }
 
-/* Landscape Mobile */
+
 @media (max-width: 768px) and (orientation: landscape) {
     .hero {
         min-height: 100vh;
@@ -1038,13 +1035,12 @@
     }
 }
 
-/* Fix para elementos flotantes */
+
 @media (max-width: 768px) {
     .custom-cursor {
         display: none !important;
     }
-    
-    /* WhatsApp button responsive */
+
     a[href*="wa.me"]:last-of-type {
         bottom: 75px !important;
         right: 15px !important;
